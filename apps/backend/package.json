@@ -4,6 +4,7 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
+		"test": "tsc && node dist/index.js",
 		"build": "tsup",
 		"dev": "tsup src/index.ts && node dist/index.js "
 	},
